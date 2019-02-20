@@ -1,10 +1,10 @@
-def sort(list):
+def sort(num):
 #creating empty dictionary
     dict = {}
     even = []
     odd = []
     chars = []
-    for x in list:
+    for x in num:
         if isinstance(x, int):
             if x %2 ==0:
                 even.append(x)
