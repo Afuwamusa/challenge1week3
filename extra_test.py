@@ -8,4 +8,7 @@ class MissTestCase(unittest.TestCase):
      def test_Miss(self):
         result = find([1,3,5,7,9])
         self.assertEqual(result, [0, 2, 4, 6, 8])
+
+if __name__ == '__main__':
+   unittest.main()
  
